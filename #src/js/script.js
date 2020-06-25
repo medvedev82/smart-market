@@ -1,8 +1,11 @@
 
+@@include('jquery-3.5.1.min.js', {})
+@@include('jquery.nice-select.min.js', {})
 
-@@include('swiper.js', {})
-@@include('app.js', {})
 
+$(document).ready(function() {
+   $('select').niceSelect();
+ });
 
 
 /* let user_icon = document.querySelector('.user-header__icon');

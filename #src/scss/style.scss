@@ -13,10 +13,12 @@
 
 //<Иконочные шрифты>====================================
 // @import "icons.scss"
+@import "font-awesome/font-awesome.scss";
 //</Иконочные шрифты>====================================
 
 //<Шрифт по умолчанию>====================================
-$fontfamily: "Arial MT";
+$fontfamily: Rubik;
+
 //</Шрифт по умолчанию>====================================
 
 // </ШРИФТЫ> ============================================
@@ -61,12 +63,14 @@ body {
 //<ПОДКЛЮЧЕНИ ФАЙЛОВ UI СТИЛЕЙ, ФОРМ И ГОТОВЫХ КЛАССОВ>================================================
 
 //<ПОДКЛЮЧЕНИ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>================================================
+@import "jquery-nice-select/nice-select.scss";
 //@import "datepicker.scss";
 //@import "lightgallery.scss";
 //@import "pagging.scss";
 //@import "icons.scss";
 // @import "popup.scss";
  @import "header.scss";
+ @import "main-nav.scss";
 // @import "footer.scss";
 // @import "home.scss";
 // @import "lots.scss";

@@ -1,6 +1,6 @@
 .header {
    
-   position: fixed;
+   //position: fixed;
    width: 100%;
    top: 0;
    left: 0;
@@ -56,17 +56,20 @@
       display: flex;
       width: 100%;
       align-items: center;
+      margin: 0 -10px;
    }
 
    // .header__col1
    &__col1 {
-      flex: 0 1 270px;
+      flex: 0 0 270px;
+      padding: 0 10px;
    }
 
    // .header__col2
    &__col2 {
       display: flex;
       flex: 0 1 100%;
+      padding: 0 10px;
       justify-content: space-between;
    }
 
